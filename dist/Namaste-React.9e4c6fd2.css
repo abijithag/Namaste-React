@@ -1,0 +1,39 @@
+.heading-container {
+  border: 1px solid #000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+}
+
+.nav-bar > ul {
+  gap: 20px;
+  list-style: none;
+  display: flex;
+}
+
+.img {
+  width: 120px;
+}
+
+.res-card {
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 300px;
+  padding: 5px;
+}
+
+.img2 {
+  width: 100%;
+}
+
+.res-card:hover {
+  border: 1px solid #000;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+}
+/*# sourceMappingURL=Namaste-React.9e4c6fd2.css.map */
