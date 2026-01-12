@@ -207,7 +207,7 @@
       });
     }
   }
-})({"aj62f":[function(require,module,exports,__globalThis) {
+})({"7wZbQ":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -215,7 +215,7 @@ var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "cb5ea115f72d0d54";
+module.bundle.HMR_BUNDLE_ID = "9440bf780f77c784";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -713,12 +713,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"4ZGjQ":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$5fe5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$5fe5.init();
+},{}],"2R06K":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$0bfa = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$0bfa.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5fe5.prelude(module);
+$parcel$ReactRefreshHelpers$0bfa.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -727,537 +727,47 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const Header = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "heading-container",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "img-container",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "img",
-                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRINv8skdJmrbqNOpoaVKAK_NRM_WbcD4sknQ&s"
-                }, void 0, false, {
-                    fileName: "app.js",
-                    lineNumber: 8,
-                    columnNumber: 10
-                }, undefined)
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 7,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "nav-bar",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "about"
-                        }, void 0, false, {
-                            fileName: "app.js",
-                            lineNumber: 14,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "home"
-                        }, void 0, false, {
-                            fileName: "app.js",
-                            lineNumber: 15,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "contact us"
-                        }, void 0, false, {
-                            fileName: "app.js",
-                            lineNumber: 16,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "cart"
-                        }, void 0, false, {
-                            fileName: "app.js",
-                            lineNumber: 17,
-                            columnNumber: 9
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "app.js",
-                    lineNumber: 13,
-                    columnNumber: 8
-                }, undefined)
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 12,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "app.js",
-        lineNumber: 6,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Header;
-const RestaurantCard = (props)=>{
-    const { resData } = props;
-    const { name, cloudinaryImageId, avgRating, costForTwo, cuisines } = resData;
-    const IMG_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "res-card",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "res-img",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "img2",
-                    src: cloudinaryImageId
-                }, void 0, false, {
-                    fileName: "app.js",
-                    lineNumber: 43,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 42,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: name
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 48,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                children: costForTwo
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 49,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: [
-                    " ",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("small", {
-                        children: cuisines
-                    }, void 0, false, {
-                        fileName: "app.js",
-                        lineNumber: 50,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "app.js",
-                lineNumber: 50,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
-                children: avgRating
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 51,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "app.js",
-        lineNumber: 41,
-        columnNumber: 5
-    }, undefined);
-};
-_c1 = RestaurantCard;
-const resList = [
-    {
-        info: {
-            id: "1",
-            name: "KFC",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
-            cuisines: [
-                "Burgers",
-                "Fast Food"
-            ],
-            avgRating: 4.1,
-            costForTwo: "\u20B9400",
-            sla: {
-                deliveryTime: 25
-            }
-        }
-    },
-    {
-        info: {
-            id: "2",
-            name: "Pizza Hut",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3",
-            cuisines: [
-                "Pizzas"
-            ],
-            avgRating: 4.2,
-            costForTwo: "\u20B9350",
-            sla: {
-                deliveryTime: 30
-            }
-        }
-    },
-    {
-        info: {
-            id: "3",
-            name: "McDonald's",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
-            cuisines: [
-                "Burgers",
-                "Beverages"
-            ],
-            avgRating: 4.3,
-            costForTwo: "\u20B9400",
-            sla: {
-                deliveryTime: 20
-            }
-        }
-    },
-    {
-        info: {
-            id: "4",
-            name: "Burger King",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1571091718767-18b5b1457add",
-            cuisines: [
-                "Burgers",
-                "American"
-            ],
-            avgRating: 4.0,
-            costForTwo: "\u20B9350",
-            sla: {
-                deliveryTime: 25
-            }
-        }
-    },
-    {
-        info: {
-            id: "5",
-            name: "Subway",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845",
-            cuisines: [
-                "Salads",
-                "Snacks"
-            ],
-            avgRating: 4.2,
-            costForTwo: "\u20B9500",
-            sla: {
-                deliveryTime: 15
-            }
-        }
-    },
-    {
-        info: {
-            id: "6",
-            name: "Starbucks",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1544787210-2211d7c309c7",
-            cuisines: [
-                "Beverages",
-                "Cafe"
-            ],
-            avgRating: 4.4,
-            costForTwo: "\u20B9700",
-            sla: {
-                deliveryTime: 20
-            }
-        }
-    },
-    {
-        info: {
-            id: "7",
-            name: "Domino's Pizza",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
-            cuisines: [
-                "Pizzas",
-                "Italian"
-            ],
-            avgRating: 4.3,
-            costForTwo: "\u20B9400",
-            sla: {
-                deliveryTime: 25
-            }
-        }
-    },
-    {
-        info: {
-            id: "8",
-            name: "Leon's Burgers",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1550547660-d9450f859349",
-            cuisines: [
-                "Burgers",
-                "American"
-            ],
-            avgRating: 4.4,
-            costForTwo: "\u20B9300",
-            sla: {
-                deliveryTime: 22
-            }
-        }
-    },
-    {
-        info: {
-            id: "9",
-            name: "Biryani Kitchen",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1563379091339-03b21bc4a4f8",
-            cuisines: [
-                "Biryani",
-                "North Indian"
-            ],
-            avgRating: 4.5,
-            costForTwo: "\u20B9450",
-            sla: {
-                deliveryTime: 35
-            }
-        }
-    },
-    {
-        info: {
-            id: "10",
-            name: "The Belgian Waffle",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1562329265-95a6d7a83440",
-            cuisines: [
-                "Waffle",
-                "Desserts"
-            ],
-            avgRating: 4.6,
-            costForTwo: "\u20B9200",
-            sla: {
-                deliveryTime: 18
-            }
-        }
-    },
-    {
-        info: {
-            id: "11",
-            name: "Baskin Robbins",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a",
-            cuisines: [
-                "Ice Cream",
-                "Desserts"
-            ],
-            avgRating: 4.4,
-            costForTwo: "\u20B9250",
-            sla: {
-                deliveryTime: 15
-            }
-        }
-    },
-    {
-        info: {
-            id: "12",
-            name: "Chinese Wok",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1525755662778-989d0524087e",
-            cuisines: [
-                "Chinese",
-                "Asian"
-            ],
-            avgRating: 4.0,
-            costForTwo: "\u20B9300",
-            sla: {
-                deliveryTime: 28
-            }
-        }
-    },
-    {
-        info: {
-            id: "13",
-            name: "Kwality Walls",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f",
-            cuisines: [
-                "Ice Cream",
-                "Desserts"
-            ],
-            avgRating: 4.7,
-            costForTwo: "\u20B9200",
-            sla: {
-                deliveryTime: 12
-            }
-        }
-    },
-    {
-        info: {
-            id: "14",
-            name: "Chai Point",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1544787210-2211d7c309c7",
-            cuisines: [
-                "Beverages",
-                "Snacks"
-            ],
-            avgRating: 4.2,
-            costForTwo: "\u20B9150",
-            sla: {
-                deliveryTime: 20
-            }
-        }
-    },
-    {
-        info: {
-            id: "15",
-            name: "Pista House",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
-            cuisines: [
-                "Biryani",
-                "Mughlai"
-            ],
-            avgRating: 4.3,
-            costForTwo: "\u20B9500",
-            sla: {
-                deliveryTime: 38
-            }
-        }
-    },
-    {
-        info: {
-            id: "16",
-            name: "Krispy Kreme",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1551024601-bec78aea704b",
-            cuisines: [
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 4.5,
-            costForTwo: "\u20B9300",
-            sla: {
-                deliveryTime: 22
-            }
-        }
-    },
-    {
-        info: {
-            id: "17",
-            name: "Wow! Momo",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9",
-            cuisines: [
-                "Tibetan",
-                "Snacks"
-            ],
-            avgRating: 3.8,
-            costForTwo: "\u20B9250",
-            sla: {
-                deliveryTime: 25
-            }
-        }
-    },
-    {
-        info: {
-            id: "18",
-            name: "Amrutha House",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4",
-            cuisines: [
-                "South Indian"
-            ],
-            avgRating: 4.4,
-            costForTwo: "\u20B9300",
-            sla: {
-                deliveryTime: 30
-            }
-        }
-    },
-    {
-        info: {
-            id: "19",
-            name: "The Good Bowl",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-            cuisines: [
-                "Pastas",
-                "Italian"
-            ],
-            avgRating: 4.1,
-            costForTwo: "\u20B9400",
-            sla: {
-                deliveryTime: 26
-            }
-        }
-    },
-    {
-        info: {
-            id: "20",
-            name: "Faasos",
-            cloudinaryImageId: "https://images.unsplash.com/photo-1626777553732-48995aba3d6c",
-            cuisines: [
-                "Wraps",
-                "Fast Food"
-            ],
-            avgRating: 4.0,
-            costForTwo: "\u20B9350",
-            sla: {
-                deliveryTime: 24
-            }
-        }
-    }
-];
-const Body = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "body",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "search",
-                children: "search"
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 82,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "res-container",
-                children: resList.map((restaurant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(RestaurantCard, {
-                        resData: restaurant.info
-                    }, restaurant.info.id, false, {
-                        fileName: "app.js",
-                        lineNumber: 85,
-                        columnNumber: 11
-                    }, undefined))
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 83,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "app.js",
-        lineNumber: 81,
-        columnNumber: 5
-    }, undefined);
-};
-_c2 = Body;
+var _header = require("./componets/Header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+var _body = require("./componets/Body");
+var _bodyDefault = parcelHelpers.interopDefault(_body);
 const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "app-container",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 96,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "src/app.js",
+                lineNumber: 11,
                 columnNumber: 5
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 97,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
+                fileName: "src/app.js",
+                lineNumber: 12,
                 columnNumber: 5
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "app.js",
-        lineNumber: 95,
+        fileName: "src/app.js",
+        lineNumber: 10,
         columnNumber: 10
     }, undefined);
 };
-_c3 = AppLayout;
+_c = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
-    fileName: "app.js",
-    lineNumber: 102,
+    fileName: "src/app.js",
+    lineNumber: 17,
     columnNumber: 13
 }, undefined));
-var _c, _c1, _c2, _c3;
-$RefreshReg$(_c, "Header");
-$RefreshReg$(_c1, "RestaurantCard");
-$RefreshReg$(_c2, "Body");
-$RefreshReg$(_c3, "AppLayout");
+var _c;
+$RefreshReg$(_c, "AppLayout");
 
-  $parcel$ReactRefreshHelpers$5fe5.postlude(module);
+  $parcel$ReactRefreshHelpers$0bfa.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./componets/Header":"2p9hL","./componets/Body":"21qp3","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -17911,7 +17421,122 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"jMk1U"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"6f0162e9ab224cd4":"jMk1U"}],"2p9hL":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$563f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$563f.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$563f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _constants = require("../util/constants");
+var _react = require("react");
+var _s = $RefreshSig$();
+const Header = ()=>{
+    _s();
+    const [btnNamsteReact, setBtnNamsteReact] = (0, _react.useState)("login");
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "heading-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "img-container",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "img",
+                    src: (0, _constants.LOGO_URL)
+                }, void 0, false, {
+                    fileName: "src/componets/Header.js",
+                    lineNumber: 10,
+                    columnNumber: 12
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/componets/Header.js",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "nav-bar",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "about"
+                        }, void 0, false, {
+                            fileName: "src/componets/Header.js",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "home"
+                        }, void 0, false, {
+                            fileName: "src/componets/Header.js",
+                            lineNumber: 17,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "contact us"
+                        }, void 0, false, {
+                            fileName: "src/componets/Header.js",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "cart"
+                        }, void 0, false, {
+                            fileName: "src/componets/Header.js",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "login-btn",
+                            onClick: ()=>{
+                                btnNamsteReact === "login" ? setBtnNamsteReact("logout") : setBtnNamsteReact("login");
+                            },
+                            children: btnNamsteReact
+                        }, void 0, false, {
+                            fileName: "src/componets/Header.js",
+                            lineNumber: 20,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/componets/Header.js",
+                    lineNumber: 15,
+                    columnNumber: 10
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/componets/Header.js",
+                lineNumber: 14,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/componets/Header.js",
+        lineNumber: 8,
+        columnNumber: 7
+    }, undefined);
+};
+_s(Header, "zodZz+c4Dq157PO10DW2zKSs+xI=");
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$563f.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","../util/constants":"aUmQV","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"aUmQV":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LOGO_URL", ()=>LOGO_URL);
+parcelHelpers.export(exports, "CLOUDINARY_IMG_URL", ()=>CLOUDINARY_IMG_URL);
+const LOGO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRINv8skdJmrbqNOpoaVKAK_NRM_WbcD4sknQ&s";
+const CLOUDINARY_IMG_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -20219,6 +19844,628 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["aj62f","4ZGjQ"], "4ZGjQ", "parcelRequire164e", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"21qp3":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$850d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$850d.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$850d.prelude(module);
 
-//# sourceMappingURL=Namaste-React.f72d0d54.js.map
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _restaurantCard = require("./RestaurantCard");
+var _restaurantCardDefault = parcelHelpers.interopDefault(_restaurantCard);
+var _mockData = require("../util/mockData");
+var _mockDataDefault = parcelHelpers.interopDefault(_mockData);
+var _react = require("react");
+var _shimmer = require("./shimmer");
+var _shimmerDefault = parcelHelpers.interopDefault(_shimmer);
+var _s = $RefreshSig$();
+const Body = ()=>{
+    _s();
+    let [resList, setResList] = (0, _react.useState)([]);
+    const [searchText, setSearchText] = (0, _react.useState)("");
+    const [filterRes, setFilterRes] = (0, _react.useState)([]);
+    (0, _react.useEffect)(()=>{
+        fetchData();
+    }, []);
+    const fetchData = async ()=>{
+        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=10.51600&lng=76.21570&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+        const json = await data.json();
+        const restaurants = [
+            ...new Map((json?.data?.cards?.map((card)=>card?.card?.card?.gridElements?.infoWithStyle?.restaurants)?.flat()?.filter(Boolean) || []).map((r)=>[
+                    r.info.id,
+                    r
+                ])).values()
+        ];
+        const restaurantInfoList = restaurants.map((r)=>r.info);
+        console.log(restaurantInfoList);
+        console.log(json);
+        setResList(restaurantInfoList);
+        setFilterRes(restaurantInfoList);
+    };
+    return resList.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+        fileName: "src/componets/Body.js",
+        lineNumber: 44,
+        columnNumber: 34
+    }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "body-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "search-container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text",
+                        placeholder: "Search",
+                        value: searchText,
+                        onChange: (e)=>{
+                            setSearchText(e.target.value);
+                        }
+                    }, void 0, false, {
+                        fileName: "src/componets/Body.js",
+                        lineNumber: 47,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "search-bts",
+                        onClick: ()=>{
+                            const filterValue = resList.filter((res)=>res.name.toLowerCase().includes(searchText.toLowerCase()));
+                            setFilterRes(filterValue);
+                        },
+                        children: "search"
+                    }, void 0, false, {
+                        fileName: "src/componets/Body.js",
+                        lineNumber: 56,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/componets/Body.js",
+                lineNumber: 46,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "btn-container",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    className: "filter-btn",
+                    onClick: ()=>{
+                        const filteredList = resList.filter((res)=>res.avgRating > 4);
+                        setResList(filteredList);
+                    },
+                    children: "filter top Rated"
+                }, void 0, false, {
+                    fileName: "src/componets/Body.js",
+                    lineNumber: 65,
+                    columnNumber: 11
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/componets/Body.js",
+                lineNumber: 64,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "res-container",
+                children: filterRes.map((restaurant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantCardDefault.default), {
+                        resData: restaurant
+                    }, restaurant.id, false, {
+                        fileName: "src/componets/Body.js",
+                        lineNumber: 77,
+                        columnNumber: 13
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/componets/Body.js",
+                lineNumber: 75,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/componets/Body.js",
+        lineNumber: 45,
+        columnNumber: 7
+    }, undefined);
+};
+_s(Body, "VT8X5EDKAvcP4o3IfUa6f6vBoYA=");
+_c = Body;
+exports.default = Body;
+var _c;
+$RefreshReg$(_c, "Body");
+
+  $parcel$ReactRefreshHelpers$850d.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","./RestaurantCard":"bK3tc","../util/mockData":"hxIm6","react":"jMk1U","./shimmer":"fdmvR","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"bK3tc":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$44ac = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$44ac.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$44ac.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _constants = require("../util/constants");
+const RestaurantCard = (props)=>{
+    const { resData } = props;
+    const { name, cloudinaryImageId, avgRating, costForTwo, cuisines } = resData;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "res-card",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "res-img",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "img2",
+                    src: (0, _constants.CLOUDINARY_IMG_URL) + cloudinaryImageId
+                }, void 0, false, {
+                    fileName: "src/componets/RestaurantCard.js",
+                    lineNumber: 22,
+                    columnNumber: 11
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/componets/RestaurantCard.js",
+                lineNumber: 21,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "dis",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: name
+                    }, void 0, false, {
+                        fileName: "src/componets/RestaurantCard.js",
+                        lineNumber: 29,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        children: costForTwo
+                    }, void 0, false, {
+                        fileName: "src/componets/RestaurantCard.js",
+                        lineNumber: 30,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "cuisines",
+                        children: [
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("small", {
+                                children: cuisines.join(",")
+                            }, void 0, false, {
+                                fileName: "src/componets/RestaurantCard.js",
+                                lineNumber: 31,
+                                columnNumber: 34
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/componets/RestaurantCard.js",
+                        lineNumber: 31,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                        children: avgRating
+                    }, void 0, false, {
+                        fileName: "src/componets/RestaurantCard.js",
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/componets/RestaurantCard.js",
+                lineNumber: 28,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/componets/RestaurantCard.js",
+        lineNumber: 20,
+        columnNumber: 7
+    }, undefined);
+};
+_c = RestaurantCard;
+exports.default = RestaurantCard;
+var _c;
+$RefreshReg$(_c, "RestaurantCard");
+
+  $parcel$ReactRefreshHelpers$44ac.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","../util/constants":"aUmQV","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"hxIm6":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const resList = [
+    {
+        info: {
+            id: "1",
+            name: "KFC",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+            cuisines: [
+                "Burgers",
+                "Fast Food"
+            ],
+            avgRating: 4.1,
+            costForTwo: "\u20B9400",
+            sla: {
+                deliveryTime: 25
+            }
+        }
+    },
+    {
+        info: {
+            id: "2",
+            name: "Pizza Hut",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3",
+            cuisines: [
+                "Pizzas"
+            ],
+            avgRating: 4.2,
+            costForTwo: "\u20B9350",
+            sla: {
+                deliveryTime: 30
+            }
+        }
+    },
+    {
+        info: {
+            id: "3",
+            name: "McDonald's",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+            cuisines: [
+                "Burgers",
+                "Beverages"
+            ],
+            avgRating: 4.3,
+            costForTwo: "\u20B9400",
+            sla: {
+                deliveryTime: 20
+            }
+        }
+    },
+    {
+        info: {
+            id: "4",
+            name: "Burger King",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1571091718767-18b5b1457add",
+            cuisines: [
+                "Burgers",
+                "American"
+            ],
+            avgRating: 4.0,
+            costForTwo: "\u20B9350",
+            sla: {
+                deliveryTime: 25
+            }
+        }
+    },
+    {
+        info: {
+            id: "5",
+            name: "Subway",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845",
+            cuisines: [
+                "Salads",
+                "Snacks"
+            ],
+            avgRating: 4.2,
+            costForTwo: "\u20B9500",
+            sla: {
+                deliveryTime: 15
+            }
+        }
+    },
+    {
+        info: {
+            id: "6",
+            name: "Starbucks",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1544787210-2211d7c309c7",
+            cuisines: [
+                "Beverages",
+                "Cafe"
+            ],
+            avgRating: 4.4,
+            costForTwo: "\u20B9700",
+            sla: {
+                deliveryTime: 20
+            }
+        }
+    },
+    {
+        info: {
+            id: "7",
+            name: "Domino's Pizza",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+            cuisines: [
+                "Pizzas",
+                "Italian"
+            ],
+            avgRating: 4.3,
+            costForTwo: "\u20B9400",
+            sla: {
+                deliveryTime: 25
+            }
+        }
+    },
+    {
+        info: {
+            id: "8",
+            name: "Leon's Burgers",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1550547660-d9450f859349",
+            cuisines: [
+                "Burgers",
+                "American"
+            ],
+            avgRating: 4.4,
+            costForTwo: "\u20B9300",
+            sla: {
+                deliveryTime: 22
+            }
+        }
+    },
+    {
+        info: {
+            id: "9",
+            name: "Biryani Kitchen",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1563379091339-03b21bc4a4f8",
+            cuisines: [
+                "Biryani",
+                "North Indian"
+            ],
+            avgRating: 4.5,
+            costForTwo: "\u20B9450",
+            sla: {
+                deliveryTime: 35
+            }
+        }
+    },
+    {
+        info: {
+            id: "10",
+            name: "The Belgian Waffle",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1562329265-95a6d7a83440",
+            cuisines: [
+                "Waffle",
+                "Desserts"
+            ],
+            avgRating: 4.6,
+            costForTwo: "\u20B9200",
+            sla: {
+                deliveryTime: 18
+            }
+        }
+    },
+    {
+        info: {
+            id: "11",
+            name: "Baskin Robbins",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a",
+            cuisines: [
+                "Ice Cream",
+                "Desserts"
+            ],
+            avgRating: 4.4,
+            costForTwo: "\u20B9250",
+            sla: {
+                deliveryTime: 15
+            }
+        }
+    },
+    {
+        info: {
+            id: "12",
+            name: "Chinese Wok",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1525755662778-989d0524087e",
+            cuisines: [
+                "Chinese",
+                "Asian"
+            ],
+            avgRating: 4.0,
+            costForTwo: "\u20B9300",
+            sla: {
+                deliveryTime: 28
+            }
+        }
+    },
+    {
+        info: {
+            id: "13",
+            name: "Kwality Walls",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f",
+            cuisines: [
+                "Ice Cream",
+                "Desserts"
+            ],
+            avgRating: 4.7,
+            costForTwo: "\u20B9200",
+            sla: {
+                deliveryTime: 12
+            }
+        }
+    },
+    {
+        info: {
+            id: "14",
+            name: "Chai Point",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1544787210-2211d7c309c7",
+            cuisines: [
+                "Beverages",
+                "Snacks"
+            ],
+            avgRating: 4.2,
+            costForTwo: "\u20B9150",
+            sla: {
+                deliveryTime: 20
+            }
+        }
+    },
+    {
+        info: {
+            id: "15",
+            name: "Pista House",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+            cuisines: [
+                "Biryani",
+                "Mughlai"
+            ],
+            avgRating: 4.3,
+            costForTwo: "\u20B9500",
+            sla: {
+                deliveryTime: 38
+            }
+        }
+    },
+    {
+        info: {
+            id: "16",
+            name: "Krispy Kreme",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1551024601-bec78aea704b",
+            cuisines: [
+                "Desserts",
+                "Beverages"
+            ],
+            avgRating: 4.5,
+            costForTwo: "\u20B9300",
+            sla: {
+                deliveryTime: 22
+            }
+        }
+    },
+    {
+        info: {
+            id: "17",
+            name: "Wow! Momo",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9",
+            cuisines: [
+                "Tibetan",
+                "Snacks"
+            ],
+            avgRating: 3.8,
+            costForTwo: "\u20B9250",
+            sla: {
+                deliveryTime: 25
+            }
+        }
+    },
+    {
+        info: {
+            id: "18",
+            name: "Amrutha House",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4",
+            cuisines: [
+                "South Indian"
+            ],
+            avgRating: 4.4,
+            costForTwo: "\u20B9300",
+            sla: {
+                deliveryTime: 30
+            }
+        }
+    },
+    {
+        info: {
+            id: "19",
+            name: "The Good Bowl",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+            cuisines: [
+                "Pastas",
+                "Italian"
+            ],
+            avgRating: 4.1,
+            costForTwo: "\u20B9400",
+            sla: {
+                deliveryTime: 26
+            }
+        }
+    },
+    {
+        info: {
+            id: "20",
+            name: "Faasos",
+            cloudinaryImageId: "https://images.unsplash.com/photo-1626777553732-48995aba3d6c",
+            cuisines: [
+                "Wraps",
+                "Fast Food"
+            ],
+            avgRating: 4.0,
+            costForTwo: "\u20B9350",
+            sla: {
+                deliveryTime: 24
+            }
+        }
+    }
+];
+exports.default = resList;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fdmvR":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c254 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$c254.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c254.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const Shimmer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "shimmer-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "shimmer-card"
+            }, void 0, false, {
+                fileName: "src/componets/shimmer.js",
+                lineNumber: 5,
+                columnNumber: 12
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "shimmer-card"
+            }, void 0, false, {
+                fileName: "src/componets/shimmer.js",
+                lineNumber: 6,
+                columnNumber: 12
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "shimmer-card"
+            }, void 0, false, {
+                fileName: "src/componets/shimmer.js",
+                lineNumber: 7,
+                columnNumber: 12
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "shimmer-card"
+            }, void 0, false, {
+                fileName: "src/componets/shimmer.js",
+                lineNumber: 8,
+                columnNumber: 12
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "shimmer-card"
+            }, void 0, false, {
+                fileName: "src/componets/shimmer.js",
+                lineNumber: 9,
+                columnNumber: 12
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/componets/shimmer.js",
+        lineNumber: 3,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Shimmer;
+exports.default = Shimmer;
+var _c;
+$RefreshReg$(_c, "Shimmer");
+
+  $parcel$ReactRefreshHelpers$c254.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire164e", {}, null, null, "http://localhost:1234")
+
+//# sourceMappingURL=Namaste-React.0f77c784.js.map
