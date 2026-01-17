@@ -17,7 +17,7 @@ const RestaurantMenu = ()=>{
        "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=10.51600&lng=76.21570&restaurantId=614192&catalog_qa=undefined&submitAction=ENTER"
 
 
-        const data = await fetch(url)
+        const data = await fetch("https://github.com/mohamedsamara/mern-ecommerce")
         const json = await data.json();
         console.log(json);
         

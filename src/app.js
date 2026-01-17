@@ -44,11 +44,18 @@ const appRouter = createBrowserRouter([
       },
       
     
-    ]
+    ],
+  
   }
 
 
-])
+],
+{
+  future: {
+    v7_startTransition: true,  // Add this!
+  }
+}
+)
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<RouterProvider router={appRouter}/>);
